@@ -56,3 +56,8 @@ mvn archetype:generate -DgroupId=com.customer.service -DartifactId=customer-serv
 	* customer-service/customers
 	* Change active profile in `customer-service` [bootstrap.yml](customer-service/src/main/resources/bootstrap.yml`)
 	* Check the result of API
+	
+# References
+* [https://spring.io/guides/gs/centralized-configuration/](https://spring.io/guides/gs/centralized-configuration/)
+* [https://www.javatpoint.com/connect-spring-cloud-config-server-to-local-git-repository](https://www.javatpoint.com/connect-spring-cloud-config-server-to-local-git-repository)
+* [https://www.baeldung.com/spring-cloud-configuration](https://www.baeldung.com/spring-cloud-configuration)
